@@ -19,7 +19,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #333;
+    background-color: rgb(184, 144, 245);
 }
 
 .nav-links {
@@ -48,10 +48,33 @@
     border: 2px solid darkgray;
     margin: 10px;
     border-radius: 10px;
-    box-shadow: rgb(250, 230, 14) 10px 10px;
+    box-shadow: rgb(184, 144, 245) 10px 10px;
 }
 
 .fila-noticias {
     display: flex;
     flex-direction: row;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+}
+th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+th {
+    background-color: rgb(184, 144, 245);
+    color: white;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+.pokemon-inicial img {
+    width: 40px;
+    vertical-align: middle;
+    margin-right: 10px;
 }
